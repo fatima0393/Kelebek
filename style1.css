@@ -1,0 +1,165 @@
+/* ====== إعدادات عامة ====== */
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  background-image: url('img1.jpg');
+  background-repeat:repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ====== الهيدر ====== */
+.header-ecrire {
+  background-color: #4f92f5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-ecrire .logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header-ecrire nav a {
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: large;
+}
+
+.header-ecrire nav a:hover {
+  color: #81c2de;
+}
+
+/* ====== قسم التشجيع ====== */
+.hero-ecrire {
+  background-color: #4186be;
+  padding: 50px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-ecrire h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-ecrire p {
+  font-size: 18px;
+}
+
+/* ====== نموذج الكتابة ====== */
+.form-ecrire {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-top: 30px;
+}
+
+.form-ecrire label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4957ed;
+}
+
+.form-ecrire input,
+.form-ecrire select,
+.form-ecrire textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.form-ecrire textarea{
+    height: 900px;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
+
+/* ====== الأزرار ====== */
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.actions button {
+  background-color: #4a98f1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 5px 0;
+}
+
+.actions button:hover {
+  background-color: #3ba5ec;
+}
+
+#word-count {
+  font-size: 14px;
+  color: #444;
+}
+
+/* ====== المعاينة ====== */
+.preview {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #6bc4eb;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  color: #4a148c;
+}
+
+.preview h2 {
+  margin-bottom: 15px;
+}
+
+#preview-area {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+  line-height: 1.8;
+}
+
+
+.header-ecrire {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0e8af0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
