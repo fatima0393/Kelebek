@@ -70,16 +70,17 @@ header {
 }
 
 .header-i9ra2 .logo {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .header-i9ra2 nav a {
   margin: 0 10px;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
   text-decoration: none;
   color: white;
+  font-size: 13px;
 }
 
 .header-i9ra2 nav a:hover {
