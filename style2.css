@@ -37,16 +37,17 @@ body {
 }
 
 .header-lire .logo {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .header-lire nav a {
   margin: 0 10px;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
   text-decoration: none;
   color: white;
+  font-size: 15px;
 }
 
 .header-lire nav a:hover {
