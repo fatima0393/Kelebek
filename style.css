@@ -15,10 +15,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 7px 10px;
   background-color: #cb2165;
   border-bottom: 1px solid #cb2165;
-  font-size: x-large;
+  font-size: large;
   position: sticky;
   top: 0;
   z-index: 1000;
