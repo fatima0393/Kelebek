@@ -18,9 +18,9 @@ header {
   padding: 15px;
   font-size: 28px;
   font-weight: bold;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  
+  
+  z-index: 100;
 }
 
 .reader-container {
@@ -101,4 +101,5 @@ header {
   font-weight: bold;
 }
   */
+
 
